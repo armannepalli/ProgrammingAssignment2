@@ -1,11 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+# Functions to compute the inverse of a matrix with caching.
 
-## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
-
-# Functions to compute the inverse of a matrix with caching. 
 # Caching function for a matrix argument.  Returns a vector  
 # of getters and setters for the matrix itself, as well as  
 # placeholders for the matrix inverse calculation. 
@@ -41,14 +36,3 @@ makeCacheMatrix <- function(x = matrix()) {
   	x$setinverse(m) 
   	m 
   } 
-
-
-  
-
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
